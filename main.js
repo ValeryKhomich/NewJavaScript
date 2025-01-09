@@ -7,3 +7,12 @@ while (N <= 1000) {
 };
 console.log(`Итоговое число: ${N}\nКоличество итераций: ${i}`);
 console.log('aaa')
+console.log('bbb')
+
+console.log(`Итоговое число: ${N}\nКоличество итераций: ${i}`);
+console.log('aaa')
+console.log('bbb')
+
+console.log(`Итоговое число: ${N}\nКоличество итераций: ${i}`);
+console.log('aaa')
+console.log('bbb')
