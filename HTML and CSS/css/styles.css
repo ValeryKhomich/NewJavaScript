@@ -1,0 +1,27 @@
+body {
+  background-color: #ccc;
+}
+a {
+  display: block;
+  width: fit-content;
+  margin: 10px auto 10px auto;  
+  font-size: 1.5em;
+  text-decoration: none;  
+  padding: 5px;
+  border-radius: 3px;
+  
+  background-color: #aac;
+  color: #222;
+  transition: .4s;
+}
+a:hover {
+  background-color: #446;
+  color: #fff;
+}
+iframe {
+  display: block;
+  width: 90%;
+  height: 400px;    
+  margin: auto;
+  background-color: #aaa;
+}
