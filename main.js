@@ -1,18 +1,14 @@
-let N = Number(prompt());
-let i = 0;
-
-while (N <= 1000) {
-    N *= 2;
-    i++;
+function calculateAverage(x, y) {
+  return (x + y) / 2
 };
-console.log(`Итоговое число: ${N}\nКоличество итераций: ${i}`);
-console.log('aaa')
-console.log('bbb')
 
-console.log(`Итоговое число: ${N}\nКоличество итераций: ${i}`);
-console.log('aaa')
-console.log('bbb')
+function compareAverages() {
+  let one = calculateAverage(7, 5);
+  let two = calculateAverage(9, 3);
+  
+  (one > two) ? console.log('Среднее значение первого набора больше')
+  : (one < two) ? console.log('Среднее значение второго набора больше')
+  : console.log('Средние значения наборов равны');
+};
 
-console.log(`Итоговое число: ${N}\nКоличество итераций: ${i}`);
-console.log('aaa')
-console.log('bbb')
+compareAverages();
